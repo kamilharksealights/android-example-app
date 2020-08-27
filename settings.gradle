@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+        maven {
+            url "http://nex.sealights.co:8081/repository/sealights-internal"
+            credentials {
+                username "devops"
+                password "s2015l"
+            }
+        }
+    }
+}
+
+include ':app'
+rootProject.name = "AndroidExampleApp"
+
+

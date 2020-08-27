@@ -1,0 +1,1 @@
+java -jar sl-build-scanner.jar -scan -tokenfile sltoken.txt -buildsessionidfile buildSessionId.txt -workspacepath . -fi "*.class" -r

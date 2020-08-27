@@ -1,0 +1,14 @@
+package io.sealights.onpremise.agent.android
+
+
+class Configuration : io.sealights.onpremise.agents.android.spi.Configuration {
+    override fun getAgentId() = "abc"
+    override fun getAppName() = "mandroid_example_appyApp"
+    override fun getBranchName() = "master"
+    override fun getBuildName() = "1"
+    override fun getBuildSessionId() = "93c071dd-2f13-4b65-a65c-59ef70c88e39"
+    override fun getLabId() = getBuildSessionId()
+    override fun getServer() = "https://dev-kamil-android-gw.dev.sealights.co/api"
+    override fun getToken() = "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL0RFVi1rYW1pbC1hbmRyb2lkLmF1dGguc2VhbGlnaHRzLmlvLyIsImp3dGlkIjoiREVWLWthbWlsLWFuZHJvaWQsaS0wYjliNDYxZWE5ZmI5MTRhMCxBUElHVy04NzdkM2ZjMi1lOWZlLTRhNDYtOTAyMi03NmM3NzAyMGY5ZGQsMTU5NzIyNDk5ODQ3MSIsInN1YmplY3QiOiJTZWFMaWdodHNAYWdlbnQiLCJhdWRpZW5jZSI6WyJhZ2VudHMiXSwieC1zbC1yb2xlIjoiYWdlbnQiLCJ4LXNsLXNlcnZlciI6Imh0dHBzOi8vZGV2LWthbWlsLWFuZHJvaWQtZ3cuZGV2LnNlYWxpZ2h0cy5jby9hcGkiLCJzbF9pbXBlcl9zdWJqZWN0IjoiIiwiaWF0IjoxNTk3MjI0OTk4fQ.TmSAS6BrYTfhNXuUEtIOFivxEDKkooD7y1gOHHDvIbtCrvqS1vDXB_JLtCJ5ide-MGutfGAWJaSDl0nGjYY_KCLKWKzKaBdqhsXoAUfbf4q9WqKejh9o1HHzl5qWN_Ocmw6pbTP4ZInmNvG1JcTMmsCiqANsTLNjWbUAZxI3Bcik6JmC3xIbyEwJSBgXYmEfw3l2FPpps3aKTK0jN99OVojZJi67fSlMV1m45gTA3YNJIRcbbFGbpYAeA9w-4EaeAKl39fmbI3w7Gv62sZZFiboDeYBGyoq--O7rxDNpeBSK1OIKkTBRX6627-6SaFUs-dd7OtVTUFUV_5_a5gYSM5W9rRtxEMv0Q5sc_HzF8CXF668b94770LyYgogMvNqzOf9rTSQ1gXGa3E9xCtga68JngYofTk7xse50FJdAZnUMp30qf1lCWLFfP2HW2PprFaMbBK9IgNGTuezvD5J4XbD_9xdRMhCgAWoi1T1G4UsiuEjlZWRRAWeBQZBM6PSsGUuD0WJ6DsjEhWdangJLfLsYrtokFiEycJ22iPmxRu7EIXq6hhxW85-DH-7SLX8NDUugTsppwLXe8oQRWD3cLlRe4v9D3PkZM-suW4gGEVAsajpH5HUlrY5L5wimmN9BEYcbITp4TNhl8SYA8LP8-70FZVeWHJ7ThW1-7SNPYhk"
+
+}
